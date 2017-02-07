@@ -5,7 +5,7 @@
   "main": "./build/pdfmake-browserified.min.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/xErik/pdfmake-browserified"
+    "url": "https://github.com/jandetlefsen/pdfmake-browserified"
   },
   "scripts": {
     "build": "browserify src/pdfmake.js -g aliasify -s createPdf -p browserify-derequire -d -p [minifyify --no-map] -o build/pdfmake-browserified.min.js",
@@ -31,7 +31,7 @@
     "connect": "^3.3.5",
     "minifyify": "^7.0.1",
     "open": "0.0.5",
-    "pdfmake": "0.1.18",
+    "pdfmake": "0.1.25",
     "serve-static": "^1.9.3"
   },
   "browserify": {
