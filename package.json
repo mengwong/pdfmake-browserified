@@ -32,7 +32,7 @@
     "connect": "^3.3.5",
     "minifyify": "^7.0.1",
     "open": "0.0.5",
-    "pdfmake": "0.1.25",
+    "pdfmake": "0.1.35",
     "serve-static": "^1.9.3"
   },
   "browserify": {
